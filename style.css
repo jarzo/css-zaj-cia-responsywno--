@@ -1,0 +1,27 @@
+*{
+	box-sizing: border-box;
+}
+
+
+
+
+.box
+{
+	width: 400px;
+	height: 200px;
+	
+	padding: 20px;
+	border: 10px solid red;
+}
+
+
+.box-border
+{
+	width: 400px;
+	height: 200px;
+	
+	padding: 20px;
+	border: 10px solid blue;
+	
+	box-sizing: border-box;
+}
