@@ -1,12 +1,8 @@
-/*
-*{
+
+* 
+{
 	box-sizing: border-box;
 }
-*/
-
-
-
-
 .box
 {
 	width: 400px;
@@ -27,10 +23,36 @@
 	
 	box-sizing: border-box;
 }
+
 .col
 {
 	width: 25%;
 	float: left;
 	
 	border: 3px solid green;
+}
+
+@media (max-width: 768px)
+{
+	.col 
+		{
+		width: 50%;
+		}
+}
+
+@media all and (max-width: 480px)
+{
+	.col 
+		{
+		width: 100%;
+		}
+}
+
+@media print
+{
+	.col
+	{
+		border:3px soloi red;
+		width: 25%
+	}	
 }
